@@ -1,0 +1,1481 @@
+* {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+#page_frame_wrapper {
+	width: 100% !important;
+}
+
+body {
+	background-color: black;
+	font-size: 1.1em;
+	background-size: 100%;
+	background-position: left bottom;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+}
+
+a {
+	-moz-transition: all 0.2s linear;
+	-webkit-transition: all 0.2s linear;
+	transition: all 0.2s linear;
+}
+
+a:hover {
+	color: #f4ed1f;
+	-moz-transition: all 0.2s linear;
+	-webkit-transition: all 0.2s linear;
+	transition: all 0.2s linear;
+}
+
+h2 a {
+	-moz-transition: all 0.2s linear;
+	-webkit-transition: all 0.2s linear;
+	transition: all 0.2s linear;
+}
+
+h2 a:hover {
+	color: #f4ed1f;
+	-moz-transition: all 0.2s linear;
+	-webkit-transition: all 0.2s linear;
+	transition: all 0.2s linear;
+}
+
+.fb_iframe_widget span {
+	display: none !important;
+}
+
+/*********
+home page sidebars
+*********/
+
+.site-content {
+	position: relative;
+}
+
+.au_banner_left_container {
+	position: absolute;
+	top: 0;
+	right: 100%;
+	bottom: 0;
+	width: 10%;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+
+.au_banner_left_container a {
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+.au_banner_right_container {
+	position: absolute;
+	top: 0;
+	left: 100%;
+	bottom: 0;
+	width: 10%;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: right top;
+}
+
+.au_banner_right_container a {
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+/*********
+header
+*********/
+
+header.with-menu {
+    margin-bottom: 0;
+}
+
+section#content {
+    margin-bottom: 0;
+}
+
+#branding {
+	margin: 0;
+}
+
+#branding > .wrapper {
+	width: 100%;
+}
+
+.au_top_bar {
+	width: 100%;
+	background: black;
+	overflow: hidden;
+	z-index: 5000;
+	height: 45px;
+}
+
+.au_top_bar_container {
+	max-width: 1110px;
+	margin: 0 auto;
+}
+
+.au_music_player_container {
+	width: 100%;
+	margin: 0 auto;
+}
+
+.au_music_player_container a {
+	display: block;
+	color: white;
+	background: #0198f1;
+	text-transform: uppercase;
+	font-size: 1.9rem;
+	text-decoration: none;
+	padding: 0.5rem 0 0.5rem 2rem;
+	text-align: center;
+	position: relative;
+}
+
+.au_music_player_container a:before {
+	content: '';
+	display: none;
+	position: absolute;
+	left: 1.5rem;
+	top: 1rem;
+	border-left: 20px solid white;
+	border-top: 15px solid transparent;
+	border-bottom: 15px solid transparent;
+	margin-right: 20px;
+}
+
+.au_social_bar {
+	background: #0198f1;
+	padding: 0;
+	border-top: 1px solid white;
+}
+
+.au_social_bar ul {
+	text-align: center;
+}
+
+.au_social_bar ul li a {
+	color: white;
+	font-size: 1.5rem;
+	padding: 0 15px;
+	width: auto;
+	height: auto;
+}
+
+a.team_green_icon {
+    width: 55px !important;
+    padding-left: 10px !important;
+    padding-top: 5px !important;
+}
+
+a.team_green_icon img {
+	width: 100% !important;
+	height: auto !important;
+}
+
+.top-strip {
+	width: 100%;
+}
+
+.top-strip > .wrapper {
+	width: 100%;
+}
+
+#open-pageslide {
+	float: left;
+	color: white;
+	padding-left: 1rem;
+	padding-top: 5px;
+	position: relative;
+	z-index: 5000;
+}
+
+.csstransforms3d #pageslide {
+	z-index: 6000;
+}
+
+#open-pageslide:before {
+	display: none;
+}
+
+.header-default {
+	width: 100%;
+	background: black;
+	margin-bottom: 1rem;
+}
+
+.header-banner .logo, .header-default .logo {
+	display: block;
+}
+
+.header-banner .logo img, .header-default .logo img {
+	width: 100%;
+	max-width: 100%;
+}
+
+.main-menu > ul > li.sub-menu-columns > a {
+	cursor: default;
+}
+
+.main-menu > ul > li:hover > a:hover {
+	color: #f4ed1f;
+}
+
+.main-menu > ul > .sub-links-only > .sub-menu {
+	width: auto;
+	min-width: 180px;
+}
+
+.main-menu > ul > .sub-menu-columns > .sub-menu > .sub-links > li > a {
+	font-size: 1rem;
+}
+
+.main-menu .sub-menu .sub-links a {
+	line-height: normal;
+	font-size: 1rem;
+}
+
+/*********
+featured content
+*********/
+
+.au_home_top_featured_content_container {
+	width: 100%;
+	margin-bottom: 30px;
+}
+
+/*********
+featured slider
+*********/
+
+.au_home_top_featured_slider_container {
+	width: 100%;
+	margin-bottom: 15px;
+}
+
+.au_home_top_featured_slider_slide {
+	width: 100%;
+}
+
+.au_home_top_featured_slider_slide a {
+	display: block;
+	width: 100%;
+}
+
+.au_home_top_featured_slider_slide img {
+	display: block;
+	width: 100%;
+	max-width: 100%;
+	height: auto;
+}
+
+.owl-carousel {
+	position: relative;
+}
+
+.slider_previous_button, .slider_next_button {
+	display: none;
+}
+
+.au_slider_headline {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.8);
+}
+
+.au_slider_headline a {
+    display: block;
+    width: 100%;
+    padding: 1rem;
+    text-decoration: none;
+    color: white;
+}
+
+.au_slider_headline a span {
+    float: right;
+    border: 1px solid white;
+    padding: 0 7px;
+}
+
+.au_slider_headline:hover a span {
+    border: 1px solid #f4ed1f;
+}
+
+/*********
+featured sidebar
+*********/
+
+.au_home_top_featured_sidebar_container {
+	width: 100%;
+}
+
+.au_home_top_featured_sidebar_box {
+	width: 100%;
+	position: relative;
+	height: 155px;
+	overflow: hidden;
+	margin-bottom: 15px;
+}
+
+.au_home_top_featured_sidebar_box h2 {
+	position: absolute;
+	width: 100%;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: rgba(0, 0, 0, 0.8);
+	font-size: 1rem;
+}
+
+.au_home_top_featured_sidebar_box h2 a {
+	color: white;
+	text-decoration: none;
+	display: block;
+	padding: 1rem 0.5rem;
+}
+
+.au_home_top_featured_sidebar_box h2 a:hover {
+	color: #f4ed1f;
+}
+
+.au_home_top_featured_sidebar_box h2 a span {
+	float: right;
+	border: 1px solid white;
+	padding: 0 5px;
+}
+
+.au_home_top_featured_sidebar_box h2 a:hover span {
+	border-color: #f4ed1f;
+}
+
+.au_home_top_featured_sidebar_box .au_sidebar_tagline {
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: black;
+	color: white;
+	font-size: 14px;
+	font-style: italic;
+	padding: 5px 10px;
+}
+
+.au_home_top_featured_sidebar_box iframe {
+	width: 100% !important;
+	height: 100% !important;
+}
+
+/*********
+top featured posts
+*********/
+
+.grids {
+	margin-left: 0;
+	overflow: hidden;
+}
+
+#comments {
+	clear: both;
+}
+
+.wrapper.featured-posts {
+	width: 100%;
+}
+
+.wrapper.category-posts {
+	width: 90%;
+}
+
+.featured-posts .grids {
+	padding: 0 1rem;
+}
+
+.entries article.au_top_featured_posts {
+	min-height: 100px;
+	margin-bottom: 1rem;
+}
+
+.entry-meta {
+	font-size: 1rem;
+	padding-bottom: 0.5rem;
+}
+
+.entries article.au_top_featured_posts span {
+	-moz-transition: all 0.3s linear;
+	-webkit-transition: all 0.3s linear;
+	transition: all 0.3s linear;
+	float: right;
+	border: 1px solid white;
+	color: #f4ed1f;
+	padding: 0 0.5rem;
+	margin-bottom: 10px;
+	font-size: 14px;
+}
+
+.entries article.au_top_featured_posts span.au_readMore {
+	display: none;
+	font-size: 14px;
+}
+
+.entries article.au_top_featured_posts:first-child {
+	width: 100%;
+}
+
+.entries article.au_top_featured_posts:first-child span.au_readMore {
+	display: block;
+}
+
+.entries article.au_top_featured_posts:first-child span.au_readMorePlus {
+	display: none;
+}
+
+.featured-posts .entry-image {
+	margin: 0;
+	background: white;
+}
+
+.featured-posts .entry-image:hover {
+	background: #f4ed1f;
+}
+
+.featured-posts .entry-image img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+.entries article.au_top_featured_posts {
+	position: relative;
+}
+
+.entries article.au_top_featured_posts .entry-header {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	text-align: left;
+	background: rgba(0, 0, 0, 0.5);
+	color: white;
+}
+
+.entries article.au_top_featured_posts .entry-title {
+	margin: 0;
+}
+
+.entries article.au_top_featured_posts .entry-header a {
+	color: white;
+	display: block;
+	padding: 1rem 0.5rem 1rem 1rem;
+}
+
+/*********
+top ad space
+*********/
+
+.au_top_ad_space {
+	width: 100%;
+	padding: 1rem;
+}
+
+.au_top_ad_space_container img {
+	width: 100%;
+	max-width: 100%;
+	height: auto;
+}
+
+/*********
+bottom ad space
+*********/
+
+.au_bottom_ad_space {
+	width: 100%;
+	padding: 2rem 1rem;
+}
+
+.au_bottom_ad_space_container img {
+	width: 100%;
+	max-width: 100%;
+	height: auto;
+}
+
+/*********
+home bottom content
+*********/
+
+.au_home_bottom_content {
+	padding: 0 1rem 1rem;
+}
+
+.au_home_bottom_content .entry-summary .read-more {
+	float: right;
+}
+
+.au_home_bottom_content .entry-summary p {
+	font-size: 14px;
+	padding-top: 10px;
+}
+
+.au_home_bottom_content .entry-header .entry-title {
+	font-size: 1.2rem;
+}
+
+/*********
+home large bottom featured content
+*********/
+
+.au_large_bottom_featured_post_content .entry-title {
+	font-size: 1.8rem;
+}
+
+
+/*********
+home bottom content posts
+*********/
+
+.au_small_bottom_featured_post_container {
+	width: 100%;
+	margin-bottom: 1rem;
+}
+
+.au_small_bottom_featured_post_container:first-child {
+	display: none;
+}
+
+.au_small_bottom_featured_post_content {
+	padding: 1rem 0.5rem 0;
+	text-align: center;
+}
+
+.au_small_bottom_featured_post_content .vcard.author {
+	font-size: 12px;
+	letter-spacing: 0.05em;
+}
+
+.au_small_bottom_featured_post_content .entry-header .home-image a {
+	display: block;
+}
+
+/*********
+home bottom content ads
+*********/
+
+.au_bottom_ad_column_container {
+	width: 100%;
+	margin-bottom: 1rem;
+
+	/* remove once posts are added */
+	border: 1px solid black;
+	height: 200px;
+}
+
+.au_bottom_ad_column_container img {
+	max-width: 100%;
+	height: auto;
+}
+
+/*********
+content
+*********/
+
+.title-with-sep .title, .title-with-sep .entry-title {
+	padding-top: 1rem;
+}
+
+.page-content {
+	padding: 0 1rem;
+}
+
+.au_pagination_links {
+	text-align: center;
+	padding: 1rem 0;
+	width: 100%;
+	clear: both;
+}
+
+.au_pagination_links span a {
+	font-size: 1.8rem;
+	position: relative;
+	padding: 0 1.5rem;
+}
+
+.au_pagination_links span.au_pagination_older_link a:before {
+	content: '';
+	display: block;
+	position: absolute;
+	top: 8px;
+	left: 0;
+	border-right: 10px solid black;
+	border-top: 10px solid transparent;
+	border-bottom: 10px solid transparent;
+}
+
+.au_pagination_links span.au_pagination_newer_link a:before {
+	content: '';
+	display: block;
+	position: absolute;
+	top: 8px;
+	right: 0;
+	border-left: 10px solid black;
+	border-top: 10px solid transparent;
+	border-bottom: 10px solid transparent;
+}
+
+.au_recent_post_header {
+	padding: 1rem;
+	font-size: 2.5rem;
+	border-top: 1px solid black;
+	margin-top: 3rem;
+}
+
+.au_blog_post_list {
+	padding: 1rem;
+}
+
+/*
+
+Video page
+
+*/
+
+.video-title {
+	color: rgb(238, 238, 238);
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	font-weight: bold;
+	font-size: 14px;
+	font-family: Roboto, arial, sans-serif;
+	padding: 2px 5px;
+	max-height: 22px;
+	overflow: hidden;
+}
+
+.au_new_music_list_video {
+	position: relative;
+	width: 100%;
+}
+
+.video-thumb {
+	width: 100%;
+	display: block;
+}
+
+/*********
+new music page grids
+*********/
+
+.au_post_grids {
+	overflow: hidden;
+	padding-bottom: 1rem;
+}
+
+.au_new_music_list {
+	padding: 1rem;
+}
+
+.au_new_music_list img {
+	display: block;
+	margin: 1rem auto;
+	max-width: 100%;
+	height: auto;
+}
+
+.au_new_music_list iframe {
+	max-width: 100% !important;
+	width: 100% !important;
+	height: 100% !important;
+}
+
+.au_local_music_list {
+	padding: 1rem;
+}
+
+.au_local_music_list iframe {
+	max-width: 100% !important;
+	width: 100% !important;
+	height: 100% !important;
+}
+
+.au_listen_live_link {
+	text-decoration: none;
+	font-size: 2rem;
+	position: relative;
+	display: inline-block;
+	padding: 0.5rem 1rem 0.5rem 2rem;
+	background: #0198f1;
+	color: white;
+}
+
+.au_listen_live_link:hover {
+	background: black;
+	color: #f4ed1f;
+}
+
+.au_listen_live_link:after {
+	content: '';
+	display: block;
+	position: absolute;
+	left: 8px;
+	top: 1.5rem;
+	border-left: 12px solid white;
+	border-top: 8px solid transparent;
+	border-bottom: 8px solid transparent;
+}
+
+.au_listen_live_link:hover:after {
+	border-left-color: #f4ed1f;
+}
+
+/*********
+staff pages
+*********/
+
+.au_staff_title {
+	width: 100%;
+	margin: 1rem auto;
+	padding: 0;
+}
+
+.au_staff_title img {
+	max-width: 100%;
+	height: auto;
+}
+
+/*********
+calendar tabs
+*********/
+
+.au_calendar_links {
+	text-align: center;
+	padding-bottom: 2rem;
+}
+
+.au_calendar_links a {
+	display: inline-block;
+	text-decoration: none;
+	border: 2px solid black;
+	padding: 1rem 2rem;
+	margin: 1rem;
+}
+
+.au_calendar_links a:hover {
+	background: black;
+}
+
+.au_calendar_links a.active {
+	background: black;
+	color: #f4ed1f;
+}
+
+.au_calendar_container {
+	display: none;
+	padding: 1rem;
+	border: 2px solid black;
+	overflow: hidden;
+}
+
+.au_calendar_container h2 {
+	font-size: 3rem;
+	border-bottom: 1px solid black;
+	padding-bottom: 1rem;
+	margin-bottom: 2rem;
+}
+
+/*********
+sidebar
+*********/
+
+.sidebar {
+	border: none;
+	text-align: center;
+}
+
+.sidebar .widget {
+	border: none;
+	padding-bottom: 0;
+}
+
+/*********
+footer
+*********/
+
+#footer {
+	margin-top: 30px;
+}
+
+#footer .au_social_bar {
+	background: transparent;
+	margin-top: 1rem;
+	width: 100%;
+}
+
+#footer .au_social_bar ul li a {
+	font-size: 1.3rem;
+	padding: 0 10px;
+}
+
+.copyright {
+	background: black;
+	color: white;
+}
+
+/*********
+larger mobile break
+*********/
+
+@media only screen and (min-width: 480px) {
+
+	/*********
+	featured content
+	*********/
+
+	.au_home_top_featured_content_container {
+		width: 100%;
+	}
+
+	/*********
+	featured slider
+	*********/
+
+	.au_home_top_featured_slider_container {
+		width: 100%;
+	}
+
+	/*********
+	featured sidebar
+	*********/
+
+	.au_home_top_featured_sidebar_container {
+		width: 100%;
+	}
+
+	.au_home_top_featured_sidebar_box {
+		width: 50%;
+		float: left;
+	}
+
+}
+
+/*********
+tablet break
+*********/
+
+@media only screen and (min-width: 751px) {
+
+	/*********
+	header
+	*********/
+
+	.au_music_player_container {
+		width: 50%;
+		max-width: 250px;
+		float: left;
+		padding: 0;
+		height: 40px;
+		line-height: 40px;
+	}
+
+	.au_music_player_container a {
+		padding: 0 1rem 0 2rem;
+		font-size: 1.5rem;
+		text-align: left;
+		background: #0198f1;
+		display: inline-block;
+	}
+
+	.au_music_player_container a:hover {
+		background: black;
+		color: #f4ed1f;
+	}
+
+	.au_music_player_container a:before {
+		display: block;
+		top: 10px;
+		left: 0.8rem;
+		border-left: 10px solid white;
+		border-top: 10px solid transparent;
+		border-bottom: 10px solid transparent;
+	}
+
+	.au_music_player_container a:hover:before {
+		border-left-color: white;
+	}
+
+	.au_social_bar {
+		display: block;
+		width: 50%;
+		float: right;
+		background: transparent;
+		border-top: none;
+	}
+
+	.au_social_bar ul {
+		text-align: right;
+	}
+
+	#open-pageslide {
+		padding-top: 0;
+	}
+
+	.social {
+		text-align: right;
+	}
+
+	.social li a {
+		color: white;
+		line-height: 32px;
+	}
+
+	.social li a:hover {
+		color: #f4ed1f;
+	}
+
+	.au_social_icons {
+		width: 70%;
+		float: left;
+		padding-right: 1rem;
+	}
+
+	.au_social_search_form {
+		width: 30%;
+		float: left;
+		border: 1px solid white;
+		margin-top: 5px;
+	}
+
+    a.team_green_icon {
+        width: 55px !important;
+        padding-left: 10px !important;
+        padding-top: 5px !important;
+    }
+
+    a.team_green_icon img {
+        width: 100% !important;
+        height: auto !important;
+    }
+
+	/*********
+	main menu
+	*********/
+
+	.main-menu > ul > .link-arrow > a:after {
+		border-bottom-color: #f4ed1f;
+	}
+
+	.main-menu > ul > li > .sub-menu {
+		border-top-color: #f4ed1f;
+	}
+
+	.sub-links li a:hover {
+		color: #f4ed1f;
+	}
+
+	.sub-menu-columns .sub-menu .sub-links > .menu-item-has-children > a {
+		color: #f4ed1f;
+	}
+
+	.secondary-menu .sub-menu .menu-item-has-children > a:before, .sub-links-only .sub-menu .menu-item-has-children > a:before {
+		content: '';
+		border-left: 5px solid #f4ed1f;
+		border-top: 5px solid transparent;
+		border-bottom: 5px solid transparent;
+	}
+
+	/*********
+	top featured posts
+	*********/
+
+	.wrapper.category-posts {
+		width: 94%;
+	}
+
+	.entry-image {
+		background: white;
+	}
+
+	.entries article.au_top_featured_posts {
+		width: 29%;
+		float: right;
+		padding: 0;
+	}
+
+	.entries article.au_top_featured_posts:first-child {
+		width: 69%;
+		float: left;
+	}
+
+	.featured-posts .entry-image {
+		height: 150px;
+	}
+
+	.entries article.au_top_featured_posts:first-child .entry-image {
+		height: 330px;
+	}
+
+	.entries article.au_top_featured_posts span:hover {
+		-moz-transition: all 0.3s linear;
+		-webkit-transition: all 0.3s linear;
+		transition: all 0.3s linear;
+		background: #f4ed1f;
+		color: black;
+	}
+
+	.entries article.au_top_featured_posts:last-child {
+		margin-left: 2%;
+	}
+
+	/*********
+	bottom featured posts
+	*********/
+
+	.au_large_bottom_featured_post {
+		padding-bottom: 20px;
+	}
+
+	.au_large_bottom_featured_post .entry-image {
+		width: 60%;
+		float: right;
+		min-height: 300px;
+	}
+
+	.au_large_bottom_featured_post .entry-image {
+		background: white;
+	}
+
+	.au_large_bottom_featured_post .entry-image:hover {
+		background: #f4ed1f;
+	}
+
+	.au_large_bottom_featured_post_content {
+		width: 35%;
+		float: left;
+		padding: 1rem 0.5rem;
+	}
+
+	.au_large_bottom_featured_post_content .entry-summary {
+		text-align: justify;
+	}
+
+	/*********
+	home bottom content
+	*********/
+
+	.au_home_bottom_content {
+		overflow: hidden;
+	}
+
+	/*********
+	home bottom content posts
+	*********/
+
+	.au_small_bottom_featured_post {
+		width: 80%;
+		float: left;
+		padding-right: 1rem;
+	}
+
+	.au_small_bottom_featured_post_container {
+		width: 50%;
+		float: left;
+		padding: 1rem;
+	}
+
+	.au_small_bottom_featured_post_container:nth-child(even) {
+		clear: both;
+	}
+
+	.au_small_bottom_featured_post_content {
+		width: 100%;
+		text-align: justify;
+	}
+
+	.au_small_bottom_featured_post_content .entry-header {
+		text-align: left;
+	}
+
+	.au_small_bottom_featured_post_content .entry-title {
+		font-size: 1.6rem;
+	}
+
+	/*********
+	home bottom content ads
+	*********/
+
+	.au_bottom_ad_column {
+		width: 20%;
+		float: right;
+	}
+
+	.au_bottom_ad_column_container {
+		width: 100%;
+		padding: 1rem;
+	}
+
+	.au_bottom_ad_column_container .sidebar {
+		padding: 24px 0 0 24px;
+	}
+
+	/*********
+	content
+	*********/
+
+	.grid-4 {
+		width: auto;
+	}
+
+	/*********
+	new music page grids
+	*********/
+
+	.au_new_music_list {
+		width: 50%;
+		float: left;
+	}
+
+	.au_new_music_list:nth-child(odd) {
+		clear: left;
+	}
+
+	.au_local_music_list {
+		width: 50%;
+		float: left;
+	}
+
+	.au_local_music_list:nth-child(2n) {
+		clear: left;
+	}
+
+	/*********
+	footer
+	*********/
+
+	#footer .au_social_bar {
+		float: right;
+		margin: 0;
+		width: auto;
+		padding: 0;
+	}
+
+	#footer .au_social_bar ul {
+		padding: 0;
+		margin: 0;
+	}
+}
+
+/*********
+desktop break
+*********/
+
+@media only screen and (min-width: 961px) {
+
+	.top-strip {
+		display: none;
+	}
+
+	/*********
+	main menu
+	*********/
+
+	.main-menu > ul > li > a {
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+
+	/*********
+	featured content
+	*********/
+
+	.au_home_top_featured_content_container {
+		width: 930px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	/*********
+	featured slider
+	*********/
+
+	.au_home_top_featured_slider_container {
+		width: 68%;
+		float: left;
+		position: relative;
+	}
+
+	.slider_previous_button, .slider_next_button {
+		-moz-transition: all 0.2s linear;
+		-webkit-transition: all 0.2s linear;
+		transition: all 0.2s linear;
+		display: block;
+		width: 50px;
+		height: 50px;
+		position: absolute;
+		top: 48%;
+		z-index: 9000;
+		cursor: pointer;
+		text-align: center;
+	}
+
+	.slider_previous_button {
+		left: 0;
+	}
+
+	.slider_previous_button:before {
+		-moz-transition: all 0.2s linear;
+		-webkit-transition: all 0.2s linear;
+		transition: all 0.2s linear;
+		content: '';
+		display: block;
+		border-right: 20px solid black;
+		border-top: 20px solid transparent;
+		border-bottom: 20px solid transparent;
+		margin-right: 1rem;
+	}
+
+	.slider_previous_button:hover:before {
+		-moz-transition: all 0.2s linear;
+		-webkit-transition: all 0.2s linear;
+		transition: all 0.2s linear;
+		border-right-color: #f4ed1f;
+	}
+
+	.slider_next_button {
+		right: 0;
+	}
+
+	.slider_next_button:before {
+		-moz-transition: all 0.2s linear;
+		-webkit-transition: all 0.2s linear;
+		transition: all 0.2s linear;
+		content: '';
+		display: block;
+		border-left: 20px solid black;
+		border-top: 20px solid transparent;
+		border-bottom: 20px solid transparent;
+		margin-left: 1rem;
+	}
+
+	.slider_next_button:hover:before {
+		-moz-transition: all 0.2s linear;
+		-webkit-transition: all 0.2s linear;
+		transition: all 0.2s linear;
+		border-left-color: #f4ed1f;
+	}
+
+	/*********
+	featured sidebar
+	*********/
+
+	.au_home_top_featured_sidebar_container {
+		width: 30%;
+		float: right;
+	}
+
+	.au_home_top_featured_sidebar_box {
+		width: 100%;
+		float: none;
+	}
+
+	/*********
+	top featured posts
+	*********/
+
+	.featured-posts .grids {
+		padding: 0 2rem;
+	}
+
+	/*********
+	bottom featured posts
+	*********/
+
+	.au_large_bottom_featured_post_content {
+		padding: 2rem 1rem;
+	}
+
+	/*********
+	top ad space
+	*********/
+
+	.au_top_ad_space {
+		padding: 1rem 0;
+		max-width: 1050px;
+		margin: 0 auto;
+	}
+
+	/*********
+	bottom ad space
+	*********/
+
+	.au_bottom_ad_space {
+		padding: 2rem 0;
+		max-width: 1050px;
+		margin: 0 auto;
+	}
+
+	/*********
+	home bottom content
+	*********/
+
+	.au_home_bottom_content {
+		padding: 0 2rem;
+	}
+
+	/*********
+	new music page grids
+	*********/
+
+	.au_new_music_list {
+		width: 33.33333%;
+	}
+
+	.au_new_music_list:nth-child(odd) {
+		clear: none;
+	}
+
+	.au_new_music_list:nth-child(3n+4) {
+		clear: left;
+	}
+
+	/*********
+	content
+	*********/
+
+	.grid-8 {
+		width: 75%;
+		margin-left: 0;
+	}
+
+	.grid-4 {
+		float: right;
+		margin-left: 0;
+	}
+
+	.grid-4 .sidebar {
+		padding: 0;
+	}
+
+    a.team_green_icon {
+        width: 55px !important;
+        padding-left: 10px !important;
+        padding-top: 5px !important;
+    }
+
+    a.team_green_icon img {
+        width: 100% !important;
+        height: auto !important;
+    }
+
+}
+
+/*********
+large screen break
+*********/
+
+@media only screen and (min-width: 1200px) {
+
+	/*********
+	main menu
+	*********/
+
+	.main-menu > ul > li > a {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+
+	/*********
+	featured content
+	*********/
+
+	.au_home_top_featured_content_container {
+		width: 1050px;
+	}
+
+    a.team_green_icon {
+        width: 55px !important;
+        padding-left: 10px !important;
+        padding-top: 5px !important;
+    }
+
+    a.team_green_icon img {
+        width: 100% !important;
+        height: auto !important;
+    }
+
+}
+
+/*
+ * 	Core Owl Carousel CSS File
+ *	v1.3.3
+ */
+
+/* clearfix */
+.owl-carousel .owl-wrapper:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+/* display none until init */
+.owl-carousel{
+	display: none;
+	position: relative;
+	width: 100%;
+	-ms-touch-action: pan-y;
+}
+.owl-carousel .owl-wrapper{
+	display: none;
+	position: relative;
+	-webkit-transform: translate3d(0px, 0px, 0px);
+}
+.owl-carousel .owl-wrapper-outer{
+	overflow: hidden;
+	position: relative;
+	width: 100%;
+}
+.owl-carousel .owl-wrapper-outer.autoHeight{
+	-webkit-transition: height 500ms ease-in-out;
+	-moz-transition: height 500ms ease-in-out;
+	-ms-transition: height 500ms ease-in-out;
+	-o-transition: height 500ms ease-in-out;
+	transition: height 500ms ease-in-out;
+}
+
+.owl-carousel .owl-item{
+	float: left;
+}
+.owl-controls .owl-page,
+.owl-controls .owl-buttons div{
+	cursor: pointer;
+}
+.owl-controls {
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+/* mouse grab icon */
+.grabbing {
+    cursor:url(grabbing.png) 8 8, move;
+}
+
+/* fix */
+.owl-carousel  .owl-wrapper,
+.owl-carousel  .owl-item{
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility:    hidden;
+	-ms-backface-visibility:     hidden;
+  -webkit-transform: translate3d(0,0,0);
+  -moz-transform: translate3d(0,0,0);
+  -ms-transform: translate3d(0,0,0);
+}
